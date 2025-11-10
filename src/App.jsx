@@ -1,7 +1,6 @@
 import Input from "./main.jsx";
 import { useState } from "react";
 import cities from "./cities.json";
-import { use } from "react";
 
 function App() {
   const [hint, setHint] = useState("Enter a city");
